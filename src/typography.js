@@ -5,7 +5,7 @@ type Props = {
   fontSize?: string | number,
 }
 
-function typography({ fontSize, ...styles }: Props) {
+function typography({ fontSize, lineHeight, uppercase, ...styles }: Props) {
   if (typeof fontSize !== 'undefined') {
     styles.fontSize = fontSizeValue(fontSize)
   }

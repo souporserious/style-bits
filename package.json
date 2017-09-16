@@ -1,6 +1,6 @@
 {
   "name": "style-bits",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description":
     "A collection of small opinionated functions that can be combined or used individually in your design system.",
   "main": "lib",
