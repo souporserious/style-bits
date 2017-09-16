@@ -1,0 +1,14 @@
+[ignore]
+# Performance hack: Ignore all node_modules except those starting with:
+# - "r" (for react)
+# This needs to be tweaked as more dependencies are added.
+# https://github.com/facebook/flow/issues/869
+<PROJECT_ROOT>/node_modules/[^react].*
+
+[include]
+
+[libs]
+
+[options]
+
+[lints]
