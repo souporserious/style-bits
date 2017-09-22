@@ -1,5 +1,5 @@
 // @flow
-import { fontSizeValue, spacing } from './utils'
+import { fontSizeValue, spacingBase } from './utils'
 
 type Props = {
   fontSize?: string | number,
@@ -12,7 +12,9 @@ function typography({ fontSize, lineHeight, uppercase, ...styles }: Props) {
 
   if (typeof lineHeight !== 'undefined') {
     styles.lineHeight =
-      typeof lineHeight === 'number' ? `${lineHeight * spacing}px` : lineHeight
+      typeof lineHeight === 'number'
+        ? `${lineHeight * spacingBase}px`
+        : lineHeight
   }
 
   if (uppercase) {

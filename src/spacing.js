@@ -18,7 +18,7 @@ type Props = {
   marginLeft: string | number,
 }
 
-function space({
+function spacing({
   padding,
   paddingHorizontal,
   paddingVertical,
@@ -70,4 +70,4 @@ function space({
   return styles
 }
 
-export default space
+export default spacing

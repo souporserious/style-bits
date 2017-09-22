@@ -22,13 +22,13 @@ import {
   parseColor,
   position,
   size,
-  space,
   spacing,
+  spacingBase,
   typography,
 } from 'style-bits'
 
 const App = () => (
-  <div style={space({ padding: 2, marginBottom: 0.5 })}>
+  <div style={spacing({ padding: 2, marginBottom: 0.5 })}>
     Styled Box
   </div>
 )

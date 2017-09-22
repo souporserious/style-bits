@@ -6,9 +6,9 @@ import fixVerticalRhythm from './fix-vertical-rhythm'
 import flex from './flex'
 import position from './position'
 import size from './size'
-import space from './space'
+import spacing from './spacing'
 import typography from './typography'
-import { isLightColor, parseColor, spacing } from './utils'
+import { isLightColor, parseColor, spacingBase } from './utils'
 
 export default {
   border,
@@ -21,8 +21,8 @@ export default {
   parseColor,
   position,
   size,
-  space,
   spacing,
+  spacingValue,
   typography,
 }
 
@@ -37,7 +37,7 @@ export {
   parseColor,
   position,
   size,
-  space,
   spacing,
+  spacingBase,
   typography,
 }
